@@ -1,0 +1,23 @@
+# Model weights (do not commit large binaries)
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+*.gguf
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+
+# Secrets & Environment
+.env*
+*.token
+*.key
+
+# OS & Editor
+.DS_Store
+.vscode/
+.idea/
